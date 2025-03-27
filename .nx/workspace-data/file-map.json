@@ -29,8 +29,32 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
+        "file": "nx.json",
+        "hash": "180887503060196587"
+      },
+      {
+        "file": "apps/mobile-app/README.md",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "22464588205234468"
+      },
+      {
         "file": ".DS_Store",
         "hash": "8514508754144682665"
+      },
+      {
+        "file": "package.json",
+        "hash": "11263114420802574764"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": ".gitignore",
@@ -41,48 +65,28 @@
         "hash": "5407418692668764289"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
         "file": "README.md",
         "hash": "10596427207331334358"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "3462096019013144053"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "6870352021923392442"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "nx.json",
-        "hash": "180887503060196587"
       },
       {
         "file": "package-lock.json",
         "hash": "4013512700526881481"
       },
       {
-        "file": "package.json",
-        "hash": "11263114420802574764"
+        "file": "tsconfig.base.json",
+        "hash": "10754318768610785315"
       },
       {
-        "file": "tailwind.config.js",
-        "hash": "22464588205234468"
+        "file": "eslint.config.mjs",
+        "hash": "3462096019013144053"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       },
       {
         "file": "tailwindcss",
         "hash": "2570896218672311624"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "10754318768610785315"
       }
     ],
     "projectFileMap": {

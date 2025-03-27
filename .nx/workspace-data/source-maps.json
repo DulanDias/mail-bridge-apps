@@ -693,108 +693,6 @@
       "nx/target-defaults"
     ]
   },
-  "ui": {
-    "root": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "ui/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "name": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "sourceRoot": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "prefix": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "tags": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.executor": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.outputs": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options.jestConfig": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.executor": [
-      "ui/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.cache": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.parallelism": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.cache": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.options.passWithNoTests": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.configurations.ci": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.configurations.ci.ci": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.configurations.ci.codeCoverage": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.parallelism": [
-      "nx.json",
-      "nx/target-defaults"
-    ]
-  },
   "models": {
     "root": [
       "models/project.json",
@@ -854,6 +752,108 @@
     ],
     "targets.lint.executor": [
       "models/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.codeCoverage": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "ui": {
+    "root": [
+      "ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "ui/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "ui/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "ui/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "ui/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "ui/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "ui/project.json",
       "nx/core/project-json"
     ],
     "targets.lint.cache": [
