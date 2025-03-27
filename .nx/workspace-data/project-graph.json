@@ -14283,11 +14283,6 @@
       },
       {
         "source": "web-app",
-        "target": "npm:@angular/common",
-        "type": "static"
-      },
-      {
-        "source": "web-app",
         "target": "npm:@angular/platform-browser",
         "type": "static"
       },
@@ -33486,5 +33481,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1743099179808
+  "computedAt": 1743100252873
 }

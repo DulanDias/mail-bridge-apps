@@ -29,32 +29,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package-lock.json",
-        "hash": "18418322866519416911"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "10754318768610785315"
-      },
-      {
         "file": "nx.json",
         "hash": "180887503060196587"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".DS_Store",
-        "hash": "8514508754144682665"
-      },
-      {
-        "file": "tailwind.config.js",
-        "hash": "22464588205234468"
+        "file": ".gitignore",
+        "hash": "1810380913480118819"
       },
       {
         "file": ".prettierignore",
@@ -65,36 +45,56 @@
         "hash": "13712062800680829021"
       },
       {
-        "file": "eslint.config.mjs",
-        "hash": "3462096019013144053"
-      },
-      {
-        "file": "tailwindcss",
-        "hash": "2570896218672311624"
+        "file": "tailwind.config.js",
+        "hash": "22464588205234468"
       },
       {
         "file": "README.md",
         "hash": "10596427207331334358"
       },
       {
-        "file": "apps/desktop-app/tailwind.config.js",
-        "hash": "8267595593675155456"
+        "file": ".DS_Store",
+        "hash": "8514508754144682665"
       },
       {
-        "file": ".gitignore",
-        "hash": "1810380913480118819"
+        "file": "eslint.config.mjs",
+        "hash": "3462096019013144053"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "apps/mobile-app/README.md",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "10754318768610785315"
       },
       {
         "file": "package.json",
         "hash": "10908643349577052066"
       },
       {
+        "file": "package-lock.json",
+        "hash": "18418322866519416911"
+      },
+      {
+        "file": "apps/desktop-app/tailwind.config.js",
+        "hash": "8267595593675155456"
+      },
+      {
         "file": "jest.config.ts",
         "hash": "6870352021923392442"
       },
       {
-        "file": "apps/mobile-app/README.md",
-        "hash": "3244421341483603138"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "tailwindcss",
+        "hash": "2570896218672311624"
       }
     ],
     "projectFileMap": {
@@ -374,7 +374,7 @@
         },
         {
           "file": "apps/web-app/src/app/app.component.ts",
-          "hash": "2260899431986809464",
+          "hash": "14732440847782991959",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
@@ -397,11 +397,18 @@
           ]
         },
         {
-          "file": "apps/web-app/src/app/nx-welcome.component.ts",
-          "hash": "11099893082270191918",
+          "file": "apps/web-app/src/app/nx-welcome/nx-welcome.component.html",
+          "hash": "1189705295567623299"
+        },
+        {
+          "file": "apps/web-app/src/app/nx-welcome/nx-welcome.component.scss",
+          "hash": "13588407416302316830"
+        },
+        {
+          "file": "apps/web-app/src/app/nx-welcome/nx-welcome.component.ts",
+          "hash": "5265393965440136513",
           "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
+            "npm:@angular/core"
           ]
         },
         {
@@ -417,7 +424,7 @@
         },
         {
           "file": "apps/web-app/src/styles.scss",
-          "hash": "13304559201057109178"
+          "hash": "9284077028070888735"
         },
         {
           "file": "apps/web-app/src/test-setup.ts",
