@@ -19,80 +19,55 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "jest.config.ts",
-        "hash": "6870352021923392442"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "3462096019013144053"
-      },
-      {
-        "file": "package.json",
-        "hash": "1720475443198172135"
+        "file": "tailwindcss",
+        "hash": "2570896218672311624"
       },
       {
         "file": "nx.json",
         "hash": "7614031497107617252"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "README.md",
+        "hash": "10596427207331334358"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
       },
       {
         "file": ".gitignore",
         "hash": "7663861978715868291"
       },
       {
-        "file": ".DS_Store",
-        "hash": "4893442297748356604"
-      },
-      {
-        "file": "README.md",
-        "hash": "10596427207331334358"
-      },
-      {
         "file": "package-lock.json",
-        "hash": "4034189260472689442"
+        "hash": "4013512700526881481"
+      },
+      {
+        "file": ".DS_Store",
+        "hash": "8514508754144682665"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "3462096019013144053"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "22464588205234468"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "package.json",
+        "hash": "11263114420802574764"
       }
     ],
     "projectFileMap": {
-      "web-app-e2e": [
-        {
-          "file": "apps/web-app-e2e/eslint.config.mjs",
-          "hash": "1172734138943286526",
-          "deps": [
-            "npm:eslint-plugin-playwright"
-          ]
-        },
-        {
-          "file": "apps/web-app-e2e/playwright.config.ts",
-          "hash": "1740838696367662677",
-          "deps": [
-            "npm:@playwright/test",
-            "npm:@nx/playwright",
-            "npm:@nx/devkit"
-          ]
-        },
-        {
-          "file": "apps/web-app-e2e/project.json",
-          "hash": "12460614184596685304"
-        },
-        {
-          "file": "apps/web-app-e2e/src/example.spec.ts",
-          "hash": "16019101014373124625",
-          "deps": [
-            "npm:@playwright/test"
-          ]
-        },
-        {
-          "file": "apps/web-app-e2e/tsconfig.json",
-          "hash": "18231654798499725131"
-        }
-      ],
       "web-app": [
         {
           "file": "apps/web-app/eslint.config.mjs",
@@ -139,10 +114,11 @@
         },
         {
           "file": "apps/web-app/src/app/app.config.ts",
-          "hash": "6137170128205633588",
+          "hash": "5746493494276972129",
           "deps": [
             "npm:@angular/core",
-            "npm:@angular/router"
+            "npm:@angular/router",
+            "npm:@ionic/angular"
           ]
         },
         {
@@ -173,7 +149,7 @@
         },
         {
           "file": "apps/web-app/src/styles.scss",
-          "hash": "5195668842064076916"
+          "hash": "9540575453073076294"
         },
         {
           "file": "apps/web-app/src/test-setup.ts",
@@ -197,6 +173,39 @@
         {
           "file": "apps/web-app/tsconfig.spec.json",
           "hash": "2927375835638640771"
+        }
+      ],
+      "web-app-e2e": [
+        {
+          "file": "apps/web-app-e2e/eslint.config.mjs",
+          "hash": "1172734138943286526",
+          "deps": [
+            "npm:eslint-plugin-playwright"
+          ]
+        },
+        {
+          "file": "apps/web-app-e2e/playwright.config.ts",
+          "hash": "1740838696367662677",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "apps/web-app-e2e/project.json",
+          "hash": "12460614184596685304"
+        },
+        {
+          "file": "apps/web-app-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/web-app-e2e/tsconfig.json",
+          "hash": "18231654798499725131"
         }
       ]
     }
