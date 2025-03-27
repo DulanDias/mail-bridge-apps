@@ -1,0 +1,13 @@
+.button-pill {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-pill:not(.disabled):hover {
+  background-color: #f0f0f0; /* Replace with your desired hover color */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+a.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}

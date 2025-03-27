@@ -29,56 +29,60 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "nx.json",
-        "hash": "180887503060196587"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1810380913480118819"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
-      },
-      {
-        "file": "postcss.config.js",
-        "hash": "13712062800680829021"
-      },
-      {
-        "file": "tailwind.config.js",
-        "hash": "22464588205234468"
-      },
-      {
-        "file": "README.md",
-        "hash": "10596427207331334358"
-      },
-      {
         "file": ".DS_Store",
         "hash": "8514508754144682665"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "3462096019013144053"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "apps/mobile-app/README.md",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "10754318768610785315"
       },
       {
         "file": "package.json",
         "hash": "10908643349577052066"
       },
       {
+        "file": "postcss.config.js",
+        "hash": "13712062800680829021"
+      },
+      {
+        "file": "nx.json",
+        "hash": "180887503060196587"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "3462096019013144053"
+      },
+      {
+        "file": "tailwindcss",
+        "hash": "2570896218672311624"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
         "file": "package-lock.json",
         "hash": "18418322866519416911"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "10754318768610785315"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "22464588205234468"
+      },
+      {
+        "file": "apps/mobile-app/README.md",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "README.md",
+        "hash": "10596427207331334358"
       },
       {
         "file": "apps/desktop-app/tailwind.config.js",
@@ -89,12 +93,8 @@
         "hash": "6870352021923392442"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "tailwindcss",
-        "hash": "2570896218672311624"
+        "file": ".gitignore",
+        "hash": "1810380913480118819"
       }
     ],
     "projectFileMap": {
@@ -397,8 +397,12 @@
           ]
         },
         {
+          "file": "apps/web-app/src/app/nx-welcome/nx-welcome.component.css",
+          "hash": "4772185579008760665"
+        },
+        {
           "file": "apps/web-app/src/app/nx-welcome/nx-welcome.component.html",
-          "hash": "1189705295567623299"
+          "hash": "6819493797391708494"
         },
         {
           "file": "apps/web-app/src/app/nx-welcome/nx-welcome.component.scss",
