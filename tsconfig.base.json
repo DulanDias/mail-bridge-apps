@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mail-bridge-apps/core": ["core/src/index.ts"],
+      "@mail-bridge-apps/models": ["models/src/index.ts"],
+      "@mail-bridge-apps/ui": ["ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
