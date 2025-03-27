@@ -1,9 +1,0 @@
-{
-  "name": "MailBridge-e2e",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "projectType": "application",
-  "sourceRoot": "apps/MailBridge-e2e/src",
-  "implicitDependencies": ["MailBridge"],
-  "// targets": "to see all targets run: nx show project MailBridge-e2e --web",
-  "targets": {}
-}

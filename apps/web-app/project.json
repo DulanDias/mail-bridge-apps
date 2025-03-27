@@ -1,28 +1,28 @@
 {
-  "name": "MailBridge",
+  "name": "web-app",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "apps/MailBridge/src",
+  "sourceRoot": "apps/web-app/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/MailBridge",
-        "index": "apps/MailBridge/src/index.html",
-        "browser": "apps/MailBridge/src/main.ts",
+        "outputPath": "dist/apps/web-app",
+        "index": "apps/web-app/src/index.html",
+        "browser": "apps/web-app/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "apps/MailBridge/tsconfig.app.json",
+        "tsConfig": "apps/web-app/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/MailBridge/public"
+            "input": "apps/web-app/public"
           }
         ],
-        "styles": ["apps/MailBridge/src/styles.scss"],
+        "styles": ["apps/web-app/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -53,10 +53,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "buildTarget": "MailBridge:build:production"
+          "buildTarget": "web-app:build:production"
         },
         "development": {
-          "buildTarget": "MailBridge:build:development"
+          "buildTarget": "web-app:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -64,7 +64,7 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "buildTarget": "MailBridge:build"
+        "buildTarget": "web-app:build"
       }
     },
     "lint": {
@@ -74,15 +74,15 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "apps/MailBridge/jest.config.ts"
+        "jestConfig": "apps/web-app/jest.config.ts"
       }
     },
     "serve-static": {
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "MailBridge:build",
+        "buildTarget": "web-app:build",
         "port": 4200,
-        "staticFilePath": "dist/apps/MailBridge/browser",
+        "staticFilePath": "dist/apps/web-app/browser",
         "spa": true
       }
     }

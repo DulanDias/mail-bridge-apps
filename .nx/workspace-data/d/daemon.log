@@ -1,0 +1,157 @@
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.483Z - Started listening on: /var/folders/86/2twby8z1395cv4zcxwss0z2c0000gp/T/821558aedca2c3adfd67/d.sock
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.486Z - [WATCHER]: Subscribed to changes within: /Users/dulan/Documents/mail-bridge-apps (native)
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.494Z - Established a connection. Number of open connections: 1
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.495Z - Established a connection. Number of open connections: 2
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.495Z - Closed a connection. Number of open connections: 1
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.496Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.546Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.625Z - Time taken for 'Load Nx Plugin: /Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/plugins/package-json' 127.431917ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.627Z - Time taken for 'Load Nx Plugin: /Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 129.299916ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.633Z - Time taken for 'loadDefaultNxPlugins' 135.338791ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.665Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 168.445042ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.698Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.698Z - [REQUEST]: 
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.698Z - [REQUEST]: 
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.702Z - Time taken for 'loadSpecifiedNxPlugins' 201.17787500000003ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.703Z - Established a connection. Number of open connections: 2
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.703Z - Established a connection. Number of open connections: 3
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.703Z - Closed a connection. Number of open connections: 2
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.703Z - Established a connection. Number of open connections: 3
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.704Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.704Z - Done responding to the client handleHashGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.704Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.704Z - Established a connection. Number of open connections: 4
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.704Z - Closed a connection. Number of open connections: 3
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.705Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.705Z - Done responding to the client handleGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.705Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.706Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.706Z - Done responding to the client handleHashMultiGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:08.706Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:09.970Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:09.970Z - Done responding to the client handleNxWorkspaceFiles
+(node:23829) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:09.970Z - Handled GET_FILES_IN_DIRECTORY. Handling time: 0. Response time: 0.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:09.988Z - Time taken for 'build-project-configs' 1276.3870419999998ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:10.022Z - Error detected when creating a project graph: Failed to create project graph. See above for errors
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:10.023Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    WorkspaceValidityError: Configuration Error
+  The following implicitDependencies point to non-existent project(s):
+    web-app-e2e
+      MailBridge
+      at assertWorkspaceValidity (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/utils/assert-workspace-validity.js:71:11)
+      at buildProjectGraphUsingProjectFileMap (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/project-graph/build-project-graph.js:62:65)
+      at createAndSerializeProjectGraph (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:241:124)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:172:19)
+      at async getCachedSerializedProjectGraphPromise (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:52:24)
+      at async handleRequestProjectGraph (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+      at async handleResult (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/server.js:186:16)
+      at async handleMessage (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/server.js:109:9)
+      at async /Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/server.js:74:9
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:10.024Z - Time taken for 'createDependencies' 35.26700000000005ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:10.024Z - Done responding to the client null
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:10.024Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1527. Response time: 1.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:10.027Z - Closed a connection. Number of open connections: 2
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:21.447Z - Established a connection. Number of open connections: 3
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:21.448Z - Closed a connection. Number of open connections: 2
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:21.448Z - Established a connection. Number of open connections: 3
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:21.448Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:21.449Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    WorkspaceValidityError: Configuration Error
+  The following implicitDependencies point to non-existent project(s):
+    web-app-e2e
+      MailBridge
+      at assertWorkspaceValidity (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/utils/assert-workspace-validity.js:71:11)
+      at buildProjectGraphUsingProjectFileMap (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/project-graph/build-project-graph.js:62:65)
+      at createAndSerializeProjectGraph (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:241:124)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:172:19)
+      at async getCachedSerializedProjectGraphPromise (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:52:24)
+      at async handleRequestProjectGraph (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+      at async handleResult (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/server.js:186:16)
+      at async handleMessage (/Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/server.js:109:9)
+      at async /Users/dulan/Documents/mail-bridge-apps/node_modules/nx/src/daemon/server/server.js:74:9
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:21.449Z - Done responding to the client null
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:21.449Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:11:21.452Z - Closed a connection. Number of open connections: 2
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.477Z - [WATCHER]: apps/web-app-e2e/project.json was modified
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.478Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.579Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.579Z - [REQUEST]: apps/web-app-e2e/project.json
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.579Z - [REQUEST]: 
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.585Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.585Z - Done responding to the client handleHashGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.585Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.585Z - Time taken for 'hash changed files from watcher' 0.15895799999998417ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.586Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.586Z - Done responding to the client handleGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.586Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.588Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.589Z - Done responding to the client handleHashMultiGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.589Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.599Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.599Z - Done responding to the client handleNxWorkspaceFiles
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.599Z - Handled GET_FILES_IN_DIRECTORY. Handling time: 0. Response time: 0.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.623Z - Time taken for 'build-project-configs' 38.4435000000085ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.657Z - [SYNC]: collect registered sync generators
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:27.658Z - Time taken for 'total execution time for createProjectGraph()' 24.082792000001064ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:57.954Z - [WATCHER]: apps/web-app/project.json was modified
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:57.955Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.156Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.156Z - [REQUEST]: apps/web-app/project.json
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.156Z - [REQUEST]: 
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.162Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.162Z - Done responding to the client handleHashGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.162Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.162Z - Time taken for 'hash changed files from watcher' 0.15508300000510644ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.163Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.163Z - Done responding to the client handleGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.163Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.164Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.165Z - Done responding to the client handleHashMultiGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.165Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.202Z - Time taken for 'build-project-configs' 40.20487499999581ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.228Z - [SYNC]: collect registered sync generators
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.228Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:58.228Z - Time taken for 'total execution time for createProjectGraph()' 23.461166000008234ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.379Z - [WATCHER]: apps/web-app-e2e/project.json was modified
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.380Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.780Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.780Z - [REQUEST]: apps/web-app-e2e/project.json
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.780Z - [REQUEST]: 
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.783Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.783Z - Done responding to the client handleHashGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.783Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.783Z - Time taken for 'hash changed files from watcher' 0.08495799999218434ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.784Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.784Z - Done responding to the client handleGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.784Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.785Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.785Z - Done responding to the client handleHashMultiGlob
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.785Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.796Z - Time taken for 'build-project-configs' 12.13079199999629ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.817Z - [SYNC]: collect registered sync generators
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.817Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.817Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:12:59.818Z - Time taken for 'total execution time for createProjectGraph()' 16.88820799998939ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.189Z - Established a connection. Number of open connections: 3
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.190Z - Closed a connection. Number of open connections: 2
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.191Z - Established a connection. Number of open connections: 3
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.191Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.191Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.192Z - Time taken for 'total for creating and serializing project graph' 0.12433399999281392ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.195Z - Done responding to the client project-graph
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.195Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.206Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.206Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.206Z - Time taken for 'total for creating and serializing project graph' 0.10429199998907279ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.207Z - Done responding to the client project-graph
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.207Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.209Z - Established a connection. Number of open connections: 4
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.210Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.210Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.210Z - Time taken for 'total for creating and serializing project graph' 0.06637499999487773ms
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.211Z - Done responding to the client project-graph
+[NX v20.6.4 Daemon Server] - 2025-03-27T12:13:05.211Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
